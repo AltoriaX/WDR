@@ -1,0 +1,55 @@
+﻿
+division_template = {
+	name = "东京自卫队"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon =  { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "东京市民大队"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+	}
+}
+units = {
+	division = {
+		name = ”东京自卫队“
+		location = 1182
+		division_template = "东京自卫队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = ”东京第一防卫建设大队“
+		location = 993
+		division_template = "东京市民大队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = ”东京第二防卫建设大队“
+		location = 7016
+		division_template = "东京市民大队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = ”东京第三防卫建设大队“
+		location = 4000
+		division_template = "东京市民大队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}

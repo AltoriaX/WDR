@@ -1,0 +1,35 @@
+capital = 282 #dongjing
+
+oob = "TOY_1"
+recruit_character = Fumio_Kishida
+recruit_character = Government_of_Japan
+recruit_character = Fumio_Kishida_2 #打赢美军后
+recruit_character = Morigaki_Hidesuke
+
+set_politics = {
+	ruling_party = Trade_Doctrine
+	last_election = "2022.1.12"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 20
+	Trade_Doctrine = 75
+	fascism = 5
+}
+set_convoys = 45
+set_research_slots = 2
+set_stability = 0.32
+set_war_support = 0.21
+
+create_faction = Japan's_economic_circle
+add_to_faction = TOY
+
+add_ideas = {
+	city_of_Prosperity
+	Have_diffculty_in_e
+	Be_investigated
+	Existence_Fleet
+	the_end_of_the_world
+}
+

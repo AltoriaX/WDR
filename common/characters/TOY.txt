@@ -1,0 +1,49 @@
+characters = {
+	Fumio_Kishida= {
+		name = Fumio_Kishida
+		portraits = {
+			civilian= {
+				large ="gfx/leaders/toy/Fumio_Kishida.png"
+
+			}
+		}
+		country_leader = {
+			ideology = Manchesterism
+			desc = ribenshouxiang
+			traits = {
+				Prime_Ministers_of_Japan_Introduction
+				Liberal_Democratic_Party_Introduction
+				Disaster_Samurai
+				One_badly_frightened
+			}
+			id = 1
+		}
+	}
+	Government_of_Japan ={
+	name = Government_of_Japan
+		portraits = {
+			civilian= {
+				large ="gfx/leaders/toy/Government_of_Japan.png"
+
+			}
+		}
+	}
+	Fumio_Kishida_2= {
+		name = Fumio_Kishida_2
+		portraits = {
+			civilian= {
+				large ="gfx/leaders/toy/Fumio_Kishida_2.png"
+
+			}
+		}
+	}
+	Morigaki_Hidesuke = {
+		name =Morigaki_Hidesuke
+		portraits = {
+			civilian= {
+				large ="gfx/leaders/toy/Morigaki_Hidesuke.png"
+
+			}
+		}
+}
+}

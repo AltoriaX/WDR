@@ -1,0 +1,30 @@
+state={
+	id=914
+	name="STATE_914"
+	provinces={
+		4056 
+	}
+	state_category = town
+	history={
+		owner = KOW
+		add_core_of = KOI
+		add_core_of = BRR
+		buildings = {
+		
+			arms_factory = 1
+			industrial_complex = 2
+			fuel_silo = 1
+			infrastructure = 2
+			air_base = 6
+			4056 = {
+				naval_base = 6
+
+			}
+		}
+	}
+	manpower=112564
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+
+}
+	

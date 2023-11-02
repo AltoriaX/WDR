@@ -1,0 +1,68 @@
+ideas = {
+	country= {
+		city_of_Prosperity ={
+			picture = GFX_ideas_city_of_Prosperity
+			allowed={
+				always = yes
+			}
+			available = {
+				country_exists = TOY
+			}
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+		Have_diffculty_in_e ={
+			picture = GFX_idea_Have_diffculty_in_e
+			allowed={
+				always = yes
+		}
+		available ={
+			country_exists = TOY
+		}
+		modifier = {
+			war_support_weekly = -0.01
+		}
+	}
+	Be_investigated = {
+		picture = GFX_idea_Be_investigated
+		allowed={
+			always = yes
+		}
+		available = {
+			country_exists = TOY
+		}
+	}
+	modifier ={
+		production_speed_infrastructure_factor = -0.05
+		war_support_weekly = -0.01
+	}
+	the_end_of_the_world = {
+		picture = GFX_idea_the_end_of_the_world
+		allowed={
+			always = yes
+		}
+		modifier = {
+			production_speed_infrastructure_factor = -0.1
+		}
+	}
+	Existence_Fleet = {
+		picture = GFX_idea_Existence_Fleet
+		allowed={
+			always = yes
+		}
+		modifier = {
+			production_speed_infrastructure_factor = -0.1
+		}
+	}
+	The_struggle_against_the_US_military = {
+		picture = NOTING
+		allowed={
+			always = yes
+		}
+		modifier = {
+			industrial_capacity_factory = 0.05
+		}
+	}
+}
+}

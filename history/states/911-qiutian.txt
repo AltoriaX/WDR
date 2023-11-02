@@ -1,0 +1,32 @@
+state={
+	id=911
+	name="STATE_911"
+	provinces={
+		1063 
+	}
+	state_category = town
+	manpower=240950
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+
+                resources={
+		steel=27 # was: 35
+	}
+                 
+    history={
+		owner = WOS
+		add_core_of = TOY
+		buildings = {
+		
+			arms_factory = 1
+			industrial_complex = 2
+			fuel_silo = 1
+			infrastructure = 2
+			air_base = 6
+			1063 = {
+				naval_base = 6
+
+			}
+		}
+	}
+}    

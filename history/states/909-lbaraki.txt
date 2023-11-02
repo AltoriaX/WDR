@@ -1,0 +1,30 @@
+state={
+	id=909
+	name="STATE_909"
+	provinces={ 4118 }
+	state_category = town
+history={
+		owner = TOY
+		add_core_of = TOY
+		buildings = {
+		
+			arms_factory = 1
+			industrial_complex = 2
+			fuel_silo = 1
+			infrastructure = 2
+			air_base = 6
+			4118 = {
+				naval_base = 6
+
+			}
+		}
+		
+		victory_points = {
+			4118 15
+		}
+	}
+
+	manpower=545099
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,21 @@
+capital = 533
+
+recruit_character = Joel_B._Vowell
+
+set_politics = {
+	ruling_party = Military_Government
+	last_election = "2022.1.12"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_convoys = 5
+set_research_slots = 1
+set_popularities = {
+	democratic = 25
+	Military_Government = 75
+}
+add_ideas = {
+	Eagle_pecking_the_sun
+	The_non_existent_United_States_of_America
+	Hard_to_swallow
+}

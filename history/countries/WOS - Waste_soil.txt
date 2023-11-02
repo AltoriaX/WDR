@@ -1,0 +1,15 @@
+capital = 757
+
+recruit_character = jap_feitu
+set_politics = {
+	ruling_party = Wasteland_anarchy
+	last_election = "1936.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+add_ideas = {
+	Barren_Land
+}
+set_popularities = {
+	Wasteland_anarchy = 100
+}

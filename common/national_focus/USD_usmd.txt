@@ -1,0 +1,133 @@
+focus_tree = {
+	
+	id = USD_foucs
+	country = {
+		factor = 1
+		modifier = {
+			add =10
+			tag =USD
+		}
+	}
+	dafault = no
+	continuous_focus_position = {X=-1200 Y =1300}
+
+	focus = {
+		id = usd_Settle_down
+		icon = GFX_focus_usd_Settle_down
+		cost = 1.4
+		x = 10
+		y = 0
+		cancelable = no
+		ai_will_do ={
+			base = 100
+		}
+		available = {
+			tag =USD
+		}
+		completion_reward = {	
+			add_war_support = 0.05
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = usd_Inventory_of_equipment
+		icon = GFX_focus_usd_Inventory_of_equipment
+		cost = 1.4
+		x = 9
+		y = 1.5
+		ai_will_do = {
+			base =100
+		}
+		prerequisite = {focus = usd_Settle_down}
+		available = {
+			tag = USD
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}
+	}
+	focus = {
+		id = usd_Count_the_number_of_people
+		icon = GFX_focus_usd_Count_the_number_of_people
+		cost = 1.4
+		x = 11.5
+		y = 1.5
+		ai_will_do = {
+			base =100
+		}
+		prerequisite = {focus = usd_Settle_down}
+		available = {
+			tag = USD
+		}
+		completion_reward = {
+			add_manpower = 5000
+		}
+	}
+	focus = {
+		id = usd_wait
+		icon = GFX_focus_usd_wait
+	
+		cost = 1.4
+		x = 10
+		y = 2.1
+		ai_will_do ={
+			base = 100
+		}
+		prerequisite = {focus =usd_Count_the_number_of_people }
+		prerequisite = { focus = usd_Inventory_of_equipment }
+		available = {
+			tag =usd
+		}
+		completion_reward = {	
+			add_war_support = 0.05
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = usd_Uncle_Sam_Choice
+		icon = GFX_focus_usd_Uncle_Sam_Choice
+		cost = 1.4
+		x = 10
+		y = 3
+		ai_will_do ={
+			base = 100
+		}
+		prerequisite = {focus = usd_wait}
+		available = {
+			tag =usd
+		}
+		completion_reward = {	
+			add_war_support = 0.05
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = usd_negotiation
+		icon = GFX_focus_usd_negotiation
+		cost = 2
+		x = 10
+		y = 4
+		cancelable = no
+		available = {
+			has_country_flag=Peaceful_Evolution_2
+		}
+		allow_branch = { 
+			has_country_flag=Peaceful_Evolution_2
+		}
+		visible = {
+			has_country_flag=Peaceful_Evolution_2
+		}
+		ai_will_do ={
+			base = 100
+		}
+		prerequisite = {focus = usd_Uncle_Sam_Choice}
+		available = {
+			tag =usd
+		}
+		completion_reward = {	
+			custom_effect_tooltip = usd_negotiation_1
+			USD = { country_event = { id = usd.11 } }
+		}
+	}
+	
+}

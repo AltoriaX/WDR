@@ -1,0 +1,15 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_focus_koi_Observe_the_situation"
+		texturefile = "gfx/interface/goals/GFX_focus_koi_Observe_the_situation.png"
+	}
+	spriteType = {
+		name = "GFX_focus_koi_Acceptance_of_refugees"
+		texturefile = "gfx/interface/goals/koi/GFX_focus_koi_Acceptance_of_refugees.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_koi_Look_around"
+		texturefile = "gfx/interface/goals/koi/GFX_focus_koi_Look_around.dds"
+	}
+}

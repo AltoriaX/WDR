@@ -1,0 +1,25 @@
+capital = 910
+
+recruit_character = yin_xi_yue
+
+set_politics = {
+	ruling_party = Trade_Doctrine
+	last_election = "2022.1.12"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	Military_Government = 20
+	Trade_Doctrine = 80
+}
+set_convoys = 20
+set_research_slots = 2
+create_faction = Korean_Economic_Circle
+add_to_faction = KOI
+add_ideas = {
+	Be_isolated_and_helplessidea
+	weak_fleet
+	Under_Tai_Chi
+	the_end_of_the_world
+}
+unlock_national_focus = koi_Observe_the_situation

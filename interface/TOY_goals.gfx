@@ -1,0 +1,38 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_focus_TOY_chu_jing"
+		texturefile = "gfx/interface/goals/GFX_focus_TOY_chu_jing.png"
+	}
+	spriteType = {
+		name = "GFX_focus_TOY_ji_hua"
+		texturefile = "gfx/interface/goals/GFX_focus_TOY_ji_hua.png"
+	}
+	spriteType = {
+		name = "GFX_focus_toy_jian_cha_zhuang_bei"
+		texturefile = "gfx/interface/goals/toy/GFX_focus_toy_jian_cha_zhuang_bei.png"
+	}
+	spriteType = {
+		name = "GFX_focus_toy_jian_cha_wu_zi"
+		texturefile = "gfx/interface/goals/toy/GFX_focus_toy_jian_cha_wu_zi.png"
+	}
+	spriteType = {
+		name = "GFX_focus_toy_duan_lian"
+		texturefile = "gfx/interface/goals/toy/GFX_focus_toy_duan_lian.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_toy_Be_prepared_for_anything"
+		texturefile = "gfx/interface/goals/toy/GFX_focus_toy_Be_prepared_for_anything.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_toy_Draw_a_map"
+		texturefile = "gfx/interface/goals/toy/GFX_focus_toy_Draw_a_map.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_toy_Wear_protective_clothing"
+		texturefile = "gfx/interface/goals/toy/GFX_focus_toy_Wear_protective_clothing.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_toy_Step_out_of_the_wasteland"
+		texturefile = "gfx/interface/goals/toy/GFX_focus_toy_Step_out_of_the_wasteland.dds"
+	}
+}

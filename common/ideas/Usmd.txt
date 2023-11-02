@@ -1,0 +1,39 @@
+ideas = {
+	country = {
+		Eagle_pecking_the_sun={
+		picture = GFX_idea_Eagle_pecking_the_sun
+		allowed={
+			always = yes
+		}
+		modifier = {
+			stability_factor = 0.1
+			war_support_factor = 0.05
+		}
+		}
+		The_non_existent_United_States_of_America={
+			picture = GFX_idea_The_non_existent_United_States_of_America
+				always = yes
+			}
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.05
+			}
+			
+			Hard_to_swallow={
+				picture = GFX_idea_Hard_to_swallow
+					always = yes
+				}
+				modifier = {
+					stability_factor = 0.1
+					war_support_factor = 0.05
+				}
+			Nourish_one_s_strength = {
+				picture = GFX_idea_Nourish_one_s_strength
+					always = yes
+				}
+				modifier = {
+					stability_factor = 0.2
+					war_support_factor = 0.05
+				}
+			}
+			}

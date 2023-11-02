@@ -1,0 +1,6 @@
+focus_tree = {
+
+	id = TOY_wasteland
+ default = no
+ continuous_focus_position = {X=-1200 Y =1300}
+}

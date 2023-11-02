@@ -1,0 +1,17 @@
+capital = 913
+
+recruit_character = Jin_Yu_Zheng
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 92
+	neutrality = 8
+}
+add_ideas = {
+	the_end_of_the_world
+}

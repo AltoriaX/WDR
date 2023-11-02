@@ -1,0 +1,63 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_focus_usd_Settle_down"
+		texturefile = "gfx/interface/goals/GFX_focus_usd_Settle_down.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_usd_wait"
+		texturefile = "gfx/interface/goals/GFX_focus_usd_wait.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_usd_Uncle_Sam_Choice"
+		texturefile = "gfx/interface/goals/GFX_focus_usd_Uncle_Sam_Choice.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_usd_Inventory_of_equipment"
+		texturefile = "gfx/interface/goals/GFX_focus_usd_Inventory_of_equipment.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_usd_Count_the_number_of_people"
+		texturefile = "gfx/interface/goals/GFX_focus_usd_Count_the_number_of_people.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_usd_Assassination_of_Fumio_Kishida"
+		texturefile = "gfx/interface/goals/usd/GFX_focus_usd_Assassination_of_Fumio_Kishida.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_usd_Forget_it"
+		texturefile = "gfx/interface/goals/usd/GFX_focus_usd_Forget_it.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_usd_Start_the_action"
+		texturefile = "gfx/interface/goals/usd/GFX_focus_usd_Start_the_action.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_usd_The_assassination_was_successful"
+		texturefile = "gfx/interface/goals/usd/GFX_focus_usd_The_assassination_was_successful.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_usd_The_assassination_failed"
+		texturefile = "gfx/interface/goals/usd/GFX_focus_usd_The_assassination_failed.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_usd_Focus_on_stability"
+		texturefile = "gfx/interface/goals/usd/GFX_focus_usd_Focus_on_stability.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_usd_Focus_on_the_inside"
+		texturefile = "gfx/interface/goals/usd/GFX_focus_usd_Focus_on_the_inside.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_usd_Focus_on_the_army"
+		texturefile = "gfx/interface/goals/usd/GFX_focus_usd_Focus_on_the_army.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_usd_The_army_Goes_Rolling_along"
+		texturefile = "gfx/interface/goals/usd/GFX_focus_usd_The_army_Goes_Rolling_along.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_usd_negotiation"
+		texturefile = "gfx/interface/goals/usd/GFX_focus_usd_negotiation.dds"
+	}
+}

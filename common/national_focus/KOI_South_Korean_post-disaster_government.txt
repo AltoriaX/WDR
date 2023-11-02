@@ -1,0 +1,150 @@
+focus_tree = {
+
+	id = KOI_focus
+
+	country = {
+		factor = 1
+		modifier = {
+			add = 10
+			tag = KOI
+		}
+	}
+	default = no
+
+	continuous_focus_position = {X=-1200 Y =1300}
+
+	focus = {
+		id = koi_Observe_the_situation
+		icon = GFX_focus_koi_Observe_the_situation
+		cost = 1.4
+		x = 10
+		y = 0
+		ai_will_do ={
+			base = 100
+		}
+		available = {
+			tag = KOI
+		}
+		completion_reward = {	
+			add_war_support = 0.05
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = koi_Look_around
+		icon = GFX_focus_koi_Look_around
+		cost = 1.4
+		x = 10
+		y = 2
+		prerequisite = {focus = koi_Acceptance_of_refugees}
+		ai_will_do ={
+			base = 100
+		}
+		available = {
+			tag = KOI
+		}
+		completion_reward = {	
+			add_manpower = 1000
+		}
+	}
+	focus = {
+		id = koi_Acceptance_of_refugees
+		icon = GFX_focus_koi_Acceptance_of_refugees
+		cost = 2
+		x = 10
+		y = 1
+		prerequisite = {focus = koi_Observe_the_situation}
+		ai_will_do ={
+			base = 100
+		}
+		available = {
+			tag = KOI
+		}
+		completion_reward = {	
+			add_manpower = 10298
+			KOI = { country_event = { days = 20 id = koi.1 } }
+		}
+	}
+	focus = {
+		id = koi_Color_Zone
+		icon = GFX_focus_koi_Color_Zone
+		cost = 2
+		x = 8
+		y = 3
+		prerequisite = {focus = koi_Look_around}
+		ai_will_do ={
+			base = 100
+		}
+		available = {
+			tag = KOI
+		}
+		completion_reward = {	
+		}
+	}
+	focus = {
+		id = koi_Our_effective_strength
+		icon = GFX_focus_koi_Our_effective_strength
+		cost = 2
+		x = 12
+		y = 3
+		prerequisite = {focus = koi_Look_around}
+		ai_will_do ={
+			base = 100
+		}
+		available = {
+			tag = KOI
+		}
+		completion_reward = {	
+		}
+	}
+	focus = {
+		id = koi_Most_agents
+		icon = GFX_focus_koi_A_few_elite
+		cost = 2
+		x = 7
+		y = 4
+		prerequisite = {focus = koi_Color_Zone}
+		mutually_exclusive = {focus = koi_A_few_elite}
+		ai_will_do ={
+			base = 100
+		}
+		available = {
+			tag = KOI
+		}
+		completion_reward = {	
+		}
+	}
+	focus = {
+		id = koi_A_few_elite
+		icon = GFX_focus_koi_A_few_elite
+		cost = 2
+		x = 9
+		y = 4
+		prerequisite = {focus = koi_Color_Zone}
+		mutually_exclusive = {focus = koi_Most_agents}
+		ai_will_do ={
+			base = 100
+		}
+		available = {
+			tag = KOI
+		}
+		completion_reward = {	
+		}
+	}
+	focus = {
+		id = koi_On_Busan_Again
+		icon = GFX_focus_koi_On_Busan_Again
+		cost = 2
+		x = 10
+		y = 3
+		prerequisite = {focus = koi_Look_around}
+		ai_will_do ={
+			base = 100
+		}
+		available = {
+			has_country_flag = Rejoin_Busan
+		}
+		completion_reward = {	
+		}
+	}
+}

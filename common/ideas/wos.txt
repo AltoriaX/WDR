@@ -1,0 +1,16 @@
+ideas = {
+	country = {
+		Barren_Land = {
+			picture = GFX_idea_Barren_Land
+			allowed={
+				always = yes
+			}
+			modifier = {
+				stability_factor = -1
+				conscription_total_factor = -1
+				stability_weekly = -1
+				industrial_capacity_factory = -0.9
+			}
+		}
+	}
+}

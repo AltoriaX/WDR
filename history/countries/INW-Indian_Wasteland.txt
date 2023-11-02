@@ -1,0 +1,16 @@
+
+capital = 422
+
+recruit_character = South_Asian_waste_soil
+set_politics = {
+	ruling_party = Wasteland_anarchy
+	last_election = "1936.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+add_ideas = {
+	Barren_Land
+}
+set_popularities = {
+	Wasteland_anarchy = 100
+}

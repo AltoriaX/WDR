@@ -1,0 +1,75 @@
+bookmarks = {
+	bookmark = {
+		name = "BLITZKRIEG_NAME"
+		desc = "BLITZKRIEG_DESC"
+		date = 2024.1.1.12
+		picture = "GFX_select_date_1939"
+		default_country = "GER"
+	
+		"TOY"={
+			history = "TOY_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+			   city_of_Prosperity
+	           Have_diffculty_in_e
+	           Be_investigated
+			}
+			focuses = {
+				toy_chu_jing
+				toy_ji_hua
+				toy_jian_cha_wu_zi
+			}
+		}
+		"USD"={
+			history = "USD_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				Eagle_pecking_the_sun
+	The_non_existent_United_States_of_America
+	Hard_to_swallow
+			}
+			focuses = {
+				usd_Settle_down
+				usd_wait
+				usd_Uncle_Sam_Choice
+			}
+		}
+		
+		"KOI"={
+			history = "KOI_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+			Be_isolated_and_helplessidea
+	        weak_fleet
+			Under_Tai_Chi
+			}
+			focuses = {
+				koi_Observe_the_situation
+			}
+		}
+		"KON"={
+			history = "KON_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				Be_beset_with_difficulties
+				Main_Body_Soldier
+			}
+			focuses = {
+				
+			}
+		}
+		"KOX"={
+			history = "KOX_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+				
+			}
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+		}
+}

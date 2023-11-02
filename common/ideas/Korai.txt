@@ -1,0 +1,33 @@
+ideas = {
+	country={
+		Be_isolated_and_helplessidea={
+			picture = GFX_idea_Be_isolated_and_helplessidea
+			allowed={
+				always = yes
+			}
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+			
+		}
+		weak_fleet={
+			picture = GFX_idea_weak_fleet
+
+			allowed={
+				always = yes
+			}
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+		Under_Tai_Chi={
+			picture = GFX_idea_Under_Tai_Chi
+			allowed={
+				always = yes
+			}
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+	}
+}

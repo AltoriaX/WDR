@@ -1,0 +1,18 @@
+capital = 912
+
+recruit_character = Kim_Jong_un
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 100
+}
+add_ideas = {
+	Be_beset_with_difficulties
+	Main_Body_Soldier
+	the_end_of_the_world
+}

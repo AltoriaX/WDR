@@ -1,0 +1,59 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_Have_diffculty_in_e"
+		texturefile = "gfx/interface/ideas/GFX_ideas_Have_diffculty_in_e.dds"
+	}		
+	spriteType = {
+		name = "GFX_idea_city_of_Prosperity"
+		texturefile = "gfx/interface/ideas/GFX_ideas_city_of_Prosperity.dds"
+	}		
+	spriteType = {
+		name = "GFX_idea_Be_investigated"
+		texturefile = "gfx/interface/ideas/GFX_idea_Be_investigated.dds"
+	}		
+	spriteType = {
+		name = "GFX_idea_the_end_of_the_world"
+		texturefile = "gfx/interface/ideas/GFX_idea_the_end_of_the_world.dds"
+	}		
+	spriteType = {
+		name = "GFX_idea_Existence_Fleet"
+		texturefile = "gfx/interface/ideas/GFX_idea_Existence_Fleet.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_Eagle_pecking_the_sun"
+		texturefile = "gfx/interface/ideas/GFX_idea_Eagle_pecking_the_sun.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_Barren_Land"
+		texturefile = "gfx/interface/ideas/GFX_idea_Barren_Land.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_The_non_existent_United_States_of_America"
+		texturefile = "gfx/interface/ideas/GFX_idea_The_non_existent_United_States_of_America.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_Hard_to_swallow"
+		texturefile = "gfx/interface/ideas/GFX_idea_Hard_to_swallow.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_Be_isolated_and_helplessidea"
+		texturefile = "gfx/interface/ideas/GFX_idea_Be_isolated_and_helplessidea.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_weak_fleet"
+		texturefile = "gfx/interface/ideas/GFX_idea_weak_fleet.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Under_Tai_Chi"
+		texturefile = "gfx/interface/ideas/GFX_idea_Under_Tai_Chi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Nourish_one_s_strength"
+		texturefile = "gfx/interface/ideas/GFX_idea_Nourish_one_s_strength.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Main_Body_Soldier"
+		texturefile = "gfx/interface/ideas/GFX_idea_Main_Body_Soldier.dds"
+	}
+}
+

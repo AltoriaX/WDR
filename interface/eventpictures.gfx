@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_report_toy_6"
+		texturefile = "gfx/interface/toy/GFX_report_toy_6.dds"
+	}
+}

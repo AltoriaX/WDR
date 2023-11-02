@@ -1,0 +1,7 @@
+focus_tree = {
+	
+	id = General_National_Policy
+	country = {
+		factor = 10
+	}
+}

@@ -1,0 +1,13 @@
+focus_tree = {
+	id = noting_focus
+	country = {
+		factor = 0
+		modifier = {
+			add =10
+			tag =WOS
+		}
+	}
+	dafault = no
+	continuous_focus_position = {X=-1200 Y =1300}
+}
+

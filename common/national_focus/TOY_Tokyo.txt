@@ -1,0 +1,253 @@
+focus_tree = {
+
+       id = TOY_focus
+
+	country ={
+		factor = 1
+		modifier = {
+			add = 10
+			tag = TOY
+		}
+	}
+	default = no
+
+	continuous_focus_position = {X=-1200 Y =1300}
+
+	focus = {
+		id = toy_chu_jing
+		icon = GFX_focus_TOY_chu_jing
+		cost = 2
+		x = 10
+		y = 0
+		cancelable = no
+		ai_will_do ={
+			base = 100
+		}
+		available = {
+			tag =toy
+		}
+		completion_reward = {	
+			TOY = { country_event = { id = toy.6 } }
+			add_war_support = 0.05
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = toy_ji_hua
+		icon = GFX_focus_TOY_ji_hua
+		cost = 2
+		x = 10
+		y = 1.8
+		ai_will_do ={
+			base = 100
+		}
+		prerequisite = {focus = toy_chu_jing}
+		completion_reward = {	
+			add_stability = 0.05
+		}
+	}
+	focus ={
+		id = toy_jian_cha_wu_zi
+		icon = GFX_focus_toy_jian_cha_wu_zi
+		cost = 1
+		x = 7
+		y = 2.5
+		cancelable = no
+		mutually_exclusive = { focus = toy_jian_cha_zhuang_bei}
+		ai_will_do ={
+			base = 100
+		}
+		prerequisite = {focus = toy_ji_hua}
+		completion_reward = {	
+			add_stability = 0.05
+		}
+	}
+	focus ={
+		id = toy_jian_cha_zhuang_bei
+		icon = GFX_focus_toy_jian_cha_zhuang_bei
+		cost = 1
+		mutually_exclusive = { focus = toy_jian_cha_wu_zi  }
+		x = 13
+		y = 2.5
+		cancelable = no
+		available = {
+			has_country_flag=Tokyo_10
+		}
+		allow_branch = { 
+			has_country_flag=tokyo_10 
+	    }
+		visible = {
+			has_country_flag=tokyo_10
+		}
+		ai_will_do ={
+			base = 100
+		}
+		prerequisite = {focus = toy_ji_hua}
+		completion_reward = {	
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = toy_Stabilize_the_morale_of_the_troops
+		icon = noting
+		cost = 2.8
+		
+		x = 6
+		y = 3.5
+		ai_will_do ={
+			base = 100
+		}
+		prerequisite = {focus = toy_jian_cha_wu_zi }
+		completion_reward = {	
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = toy_Dismantling_of_Remaining_US_Forces
+		icon = noting
+		cost = 2.8
+		
+		x = 8.5
+		y = 3.5
+		ai_will_do ={
+			base = 100
+		}
+		prerequisite = {focus = toy_jian_cha_wu_zi }
+		completion_reward = {	
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = toy_Be_prepared_for_anything
+		icon = GFX_focus_toy_Be_prepared_for_anything
+		cost = 4
+		
+		x = 13
+		y = 3.57
+		ai_will_do ={
+			base = 100
+		}
+		prerequisite = {focus = toy_jian_cha_zhuang_bei }
+		completion_reward = {	
+			custom_effect_tooltip = toy_base_Be_prepared_for_anything
+		}
+	}
+	focus = {
+		id = toy_duan_lian
+		icon = GFX_focus_toy_duan_lian
+		cost = 2.8
+		
+		x = 13
+		y = 5
+		ai_will_do ={
+			base = 100
+		}
+		visible = {
+			has_country_flag=tokyo_10
+		}
+		prerequisite = {focus = toy_Be_prepared_for_anything}
+		completion_reward = {
+			USD = { country_event = { days = 5 id = usd.1 } }
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = toy_lian_xi_bei_fang
+		icon = noting
+		cost = 2.8
+		
+		x = 7
+		y = 4.2
+		ai_will_do ={
+			base = 100
+		}
+		prerequisite = {focus = toy_Stabilize_the_morale_of_the_troops }
+		prerequisite = {focus = toy_Dismantling_of_Remaining_US_Forces }
+		completion_reward = {	
+			add_stability = 0.05
+			USD = { country_event = { id = usd.7 } }
+			TOY = { country_event = { id = toy.13 } }
+			custom_effect_tooltip = toy_Peaceful_Evolution
+		}
+	}
+	focus = {
+		id = toy_ost-disaster_reconstruction
+		icon = noting
+		cost = 2.8
+		
+		x = 7
+		y = 5
+		ai_will_do ={
+			base = 100
+		}
+		prerequisite = {focus = toy_lian_xi_bei_fang }
+		completion_reward = {	
+			add_stability = 0.05
+			custom_effect_tooltip = toy_base_Be_prepared_for_anything
+		}
+	}
+	focus = {
+		id = toy_Draw_a_map
+		icon = GFX_focus_toy_Draw_a_map
+		cost = 2.8
+		
+		x = 9
+		y = 6
+		ai_will_do ={
+			base = 100
+		}
+		prerequisite = {focus = toy_ost-disaster_reconstruction focus = toy_duan_lian }
+		prerequisite = {focus = toy_Prepare_for_disaster}
+		completion_reward = {	
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = toy_Wear_protective_clothing
+		icon = GFX_focus_toy_Wear_protective_clothing
+		cost = 2.8
+		
+		x = 11
+		y = 6
+		ai_will_do ={
+			base = 100
+		}
+		prerequisite = {focus = toy_ost-disaster_reconstruction focus = toy_duan_lian }
+		prerequisite = {focus = toy_Prepare_for_disaster}
+		completion_reward = {	
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = toy_Step_out_of_the_wasteland
+		icon = GFX_focus_toy_Step_out_of_the_wasteland
+		cost = 2.8
+		
+		x = 10
+		y = 7
+		ai_will_do ={
+			base = 100
+		}
+		prerequisite = {focus = toy_Draw_a_map}
+		prerequisite = {focus = toy_Wear_protective_clothing}
+		completion_reward = {	
+			load_focus_tree = TOY_wasteland
+			set_country_flag = Step_out_of_the_wasteland_1
+			custom_effect_tooltip = toy_base_Step_out_of_the_wasteland
+		}
+	}
+	focus ={
+		id = toy_Prepare_for_disaster
+		icon = noting
+		cost = 1
+		x = 10
+		y = 3
+		ai_will_do ={
+			base = 100
+		}
+		prerequisite = {focus = toy_ji_hua}
+		completion_reward = {	
+			add_stability = 0.05
+		}
+	}
+}

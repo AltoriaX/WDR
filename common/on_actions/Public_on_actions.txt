@@ -1,0 +1,29 @@
+on_actions = {
+	##########
+	#和平谈判#
+	##########
+	on_capitulation_immediate = { 
+		effect = { 
+			every_state = {
+				limit ={
+					is_owned_by = ROOT
+				}
+				transfer_state_to = controller
+			}
+			every_country = {
+				limit = {
+					has_war_with = ROOT
+				}
+				white_peace = ROOT
+			}
+			if = {
+				limit = {
+					country_exists = ROOT
+				}
+				FROM = {
+					annex_country = { target = ROOT transfer_troops = NO }
+				}
+			}
+		} 
+	}
+}

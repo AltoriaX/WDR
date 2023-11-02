@@ -1,0 +1,17 @@
+characters = {
+	Lee_Jae_yong = {
+		name = Lee_Jae_yong
+		portraits = {
+			civilian={
+				large = "gfx/leaders/brr/Lee_Jae_yong.png"
+			}
+		}
+		country_leader = {
+			ideology = Manchesterism
+			desc = Lee_Jae_yong
+			traits = {
+			}
+			id = 254
+		}
+	}
+}

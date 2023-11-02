@@ -1,0 +1,27 @@
+state={
+	id=912
+	name="STATE_912"
+	provinces={
+		4052 10065 7171
+	}
+	state_category = town
+	manpower=209854
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+history={
+		owner = KON
+		add_core_of = KON
+		buildings = {
+		
+			arms_factory = 1
+			industrial_complex = 2
+			fuel_silo = 1
+			infrastructure = 2
+			air_base = 6
+			4052 = {
+				naval_base = 6
+
+			}
+		}
+	}
+}

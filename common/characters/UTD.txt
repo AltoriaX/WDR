@@ -1,0 +1,20 @@
+characters = {
+	china_W_S= {
+		name = china_W_S
+		portraits = {
+			civilian= {
+				large = "gfx/leaders/utd/china_W_S.png"
+
+			}
+		}
+		country_leader = {
+			ideology = Wasteland_anarchy_1
+			desc = zhongguofeitu
+			traits = {
+				Waste_soil_Introduction
+			}
+			id = 255
+		}
+	}
+	
+}

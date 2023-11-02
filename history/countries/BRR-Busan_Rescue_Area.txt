@@ -1,0 +1,15 @@
+capital = 914
+
+recruit_character = Lee_Jae_yong
+
+set_politics = {
+	ruling_party = Trade_Doctrine
+	last_election = "1936.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	Military_Government = 20
+	Trade_Doctrine = 80
+}
+set_research_slots = 1

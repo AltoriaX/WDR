@@ -1,0 +1,31 @@
+on_actions = {
+	on_capitulation_immediate = { 
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { tag = TOY }
+					FROM = { OR = { tag = USD } }
+				}
+				USD = {
+					country_event = usd.2
+				}
+				TOY = {
+					country_event = toy.5
+				}
+			}
+		} 
+	}
+	on_capitulation_immediate = { 
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { tag = USD }
+					FROM = { OR = { tag = TOY } }
+				}
+				TOY = {
+					country_event = toy.8
+				}
+			}
+		} 
+	}
+}

@@ -1,0 +1,41 @@
+Peaceful_Evolution = {
+	icon = GFX_decision_category_Peaceful_Evolution
+	
+	picture = noting
+	
+	allowed = {
+		original_tag = TOY
+	}
+	priority = 10
+	visible ={
+			has_country_flag=Peaceful_Evolution_1
+	}
+}
+#########殖民决议（和平演变）
+Colonial_South_Japan = {
+	icon = noting
+	
+	picture = noting
+	
+	allowed = {
+		original_tag = TOY
+	}
+	priority = 10
+	visible ={
+			tag = toy
+			has_country_flag = Step_out_of_the_wasteland_1
+	}
+}
+Rebellion = {
+	icon = noting
+	
+	picture = noting
+	
+	allowed = {
+		original_tag = TOY
+	}
+	priority = 10
+	visible ={
+			has_country_flag=Tokyo_10
+	}
+}

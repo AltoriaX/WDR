@@ -1,0 +1,224 @@
+###########################
+# Japanese Events - USA
+# USD
+###########################
+
+add_namespace = usd
+
+country_event = {
+	id = usd.1
+   	picture = noting
+    	title = usd.1.t
+    	desc = usd.1.d
+    	fire_only_once = yes
+    	is_triggered_only = yes
+    	option = { 
+		ai_chance = {
+			base = 70
+		}
+        	name = usd.1.a
+			load_focus_tree = USD_TWO_foucs
+			set_capital = {
+				state = 911 
+			}
+			add_ideas = Nourish_one_s_strength
+			add_ideas = the_end_of_the_world
+        	USD = { transfer_state = 911}
+			TOY = { country_event = { days = 2 id = toy.7 } }
+			set_country_flag = Go_north
+	}
+	option = { 
+		ai_chance = {
+			base = 30
+		}
+		name = usd.1.b
+		add_war_support = 0.05
+		country_event = {id = toy.1 days = 14}
+		USD = { declare_war_on = { target = TOY type = annex_everything } }
+	}
+}
+#################美军胜利战胜东京事件
+country_event = {
+	id = usd.2
+	picture = noting
+	title = usd.2.t
+    	desc = usd.2.d
+    	fire_only_once = yes
+		is_triggered_only = yes
+    	option = { 
+		ai_chance = {
+			base = 30
+		}
+        	name = usd.2.a
+			load_focus_tree = USD_win_usmd
+	}
+}
+##########到秋田后
+country_event = {
+	id = usd.3
+	picture = noting
+	title = usd.3.t
+    	desc = usd.3.d
+    	fire_only_once = yes
+		trigger = {
+			owns_state = 911
+	        controls_state = 911
+		}
+    	option = { 
+			name = usd.3.a
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+#########美军点出国策刺杀之后成功########
+country_event = {
+	id = usd.4
+	picture = noting
+	title = usd.4.t
+    	desc = usd.4.d
+    	fire_only_once = yes
+		is_triggered_only = yes
+    	option = { 
+			name = usd.4.a
+		ai_chance = {
+			base = 100
+		}
+		mark_focus_tree_layout_dirty = yes
+		set_country_flag=The_assassination_was_successful
+	}
+}
+#########美军点出国策刺杀之后失败########
+country_event = {
+	id = usd.5
+	picture = noting
+	title = usd.5.t
+    	desc = usd.5.d
+    	fire_only_once = yes
+		is_triggered_only = yes
+    	option = {
+			name = usd.5.a
+		ai_chance = {
+			base = 100
+		}
+		mark_focus_tree_layout_dirty = yes
+		set_country_flag=The_assassination_failed
+	}
+}
+##########釜山出来之后
+country_event = {
+	id = usd.6
+	   picture = noting
+	title = usd.6.t
+	desc = usd.6.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = usd.6
+		ai_chance = {
+			base =100
+		}
+	}
+	}
+	########东京点出和平演变之后
+	country_event = {
+		id = usd.7
+		   picture = noting
+		title = usd.7.t
+		desc = usd.7.d
+		fire_only_once = yes
+		is_triggered_only = yes
+		option = {
+			name = usd.7.a
+			ai_chance = {
+				base = 100
+			}
+			TOY = { country_event = { days = 2 id = toy.15 } }
+			#解锁和平演变决议
+		}
+		option = {
+			name = usd.7.b
+			trigger = {
+				is_ai = no
+			}
+			TOY = { country_event = { days = 1 id = toy.14 } }
+			#######不接受东京的和平演变决议#######
+		}
+		}
+	country_event = {
+			id = usd.8
+			   picture = noting
+				title = usd.8.t
+				desc = usd.8.d
+				fire_only_once = yes
+				is_triggered_only = yes
+				option = { 
+					name = usd.8.a
+					load_focus_tree = USD_TWO_foucs
+					set_capital = {
+						state = 911 
+					}
+					add_ideas = Nourish_one_s_strength
+					add_ideas = the_end_of_the_world
+					USD = { transfer_state = 911}
+					USD = { country_event = { days = 5 id = usd.9 } }
+					TOY = { country_event = { days = 2 id = toy.7 } }
+			}
+			option = { 
+				name = usd.8.b
+				USD = { declare_war_on = { target = TOY type = annex_everything } }
+			}
+		}
+		######东京派来人员谈判
+		country_event = {
+			id = usd.9
+			   picture = noting
+			title = usd.9.t
+			desc = usd.9.d
+			fire_only_once = yes
+			is_triggered_only = yes
+			option = {
+				name = usd.9
+				ai_chance = {
+					base =100
+				}
+				mark_focus_tree_layout_dirty = yes
+				set_country_flag = Peaceful_Evolution_2
+			}
+			}
+			##点出长刀出鞘之后
+			country_event = {
+				id = usd.10
+				   picture = noting
+				title = usd.10.t
+				desc = usd.10.d
+				fire_only_once = yes
+				trigger = {
+					focus_progress = {
+						focus = usd_Assassination_of_Fumio_Kishida
+						progress > 0.4
+					}
+				}
+				option = {
+					name = usd.10.a
+					ai_chance = {
+						base =100
+					}
+					
+				}
+				}
+				country_event = {
+					id = usd.11
+					   picture = noting
+					title = usd.11.t
+					desc = usd.11.d
+					fire_only_once = yes
+					is_triggered_only = yes
+					option = {
+						name = usd.10.a
+						ai_chance = {
+							base =100
+						}
+						set_country_flag = Peaceful_Evolution_3
+					}
+					}

@@ -1,0 +1,20 @@
+characters = {
+	South_Asian_waste_soil= {
+		name = South_Asian_waste_soil
+		portraits = {
+			civilian= {
+				large = "gfx/leaders/inw/South_Asian_waste_soil.png"
+
+			}
+		}
+		country_leader = {
+			ideology = Wasteland_anarchy_1
+			desc = South_Asian_waste_soil_1
+			traits = {
+				Waste_soil_Introduction
+			}
+			id = 256
+		}
+	}
+	
+}

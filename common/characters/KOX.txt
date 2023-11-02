@@ -1,0 +1,18 @@
+characters = {
+	Jin_Yu_Zheng = {
+		name = Jin_Yu_Zheng
+		portraits = {
+			civilian={
+				large = "gfx/leaders/kox/Jin_Yu_Zheng.png"
+			}
+		}
+		country_leader = {
+			ideology = anti_revisionism #####修正主义######
+			desc = Jin_Yu_Zheng
+			traits = {
+				Military_Government_Introduction
+			}
+			id = 278
+		}
+	}
+}

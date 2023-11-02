@@ -1,0 +1,17 @@
+characters = {
+	yin_xi_yue = {
+		name = yin_xi_yue
+		portraits = {
+			civilian={
+				large = "gfx/leaders/koi/yin_xi_yue.png"
+			}
+		}
+		country_leader = {
+			ideology = Manchesterism
+			desc = yin_xi_yue
+			traits = {
+			}
+			id = 232
+		}
+	}
+}

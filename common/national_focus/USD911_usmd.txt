@@ -1,0 +1,196 @@
+focus_tree = {
+	
+	id = USD_TWO_foucs
+	dafault = no
+	continuous_focus_position = {X=-1200 Y =1300}
+
+    focus = {
+	id = usd_Assassination_of_Fumio_Kishida
+	icon = GFX_focus_usd_Assassination_of_Fumio_Kishida
+	cost = 2.5
+	x = 10
+	y = 0
+	cancelable = no
+	ai_will_do ={
+		base = 100
+	}
+	available = {
+		tag =USD
+	}
+	completion_reward = {
+		custom_effect_tooltip = usd_base_Assassination_of_Fumio_Kishida
+	}
+ }
+ focus = {
+	id = usd_Start_the_action
+	icon = GFX_focus_usd_Start_the_action
+	cost = 1.4
+	x = 12
+	y = 1.2
+	cancelable = no
+	ai_will_do ={
+		base = 70
+	}
+	prerequisite = {focus = usd_Assassination_of_Fumio_Kishida}
+	available = {
+		tag =USD
+	}
+	completion_reward = {
+		TOY = { country_event = { id = toy.9 } }
+		custom_effect_tooltip = usd_base_Start_the_action
+	}
+}
+focus = {
+	id = usd_Forget_it
+	icon = GFX_focus_usd_Forget_it
+	cost = 1.4
+	x = 8
+	y = 1.2
+	ai_will_do ={
+		base = 30
+	}
+	prerequisite = {focus = usd_Assassination_of_Fumio_Kishida}
+	mutually_exclusive = { focus = usd_Start_the_action}
+	available = {
+		tag =USD
+	}
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = usd_
+	icon = GFX_focus_usd_
+	cost = 1.4
+	x = 8
+	y = 2
+	ai_will_do ={
+		base = 30
+	}
+	prerequisite = {focus = usd_Forget_it}
+	available = {
+		tag =USD
+	}
+	completion_reward = {
+		
+	}
+}
+###########刺杀成功刷新#########
+focus = {
+	id = usd_The_assassination_was_successful
+	icon = GFX_focus_usd_The_assassination_was_successful
+	cost = 1.4
+	x = 12
+	y = 2
+	ai_will_do ={
+		base = 100
+	}
+	available = {
+		has_country_flag=The_assassination_was_successful
+	}
+	allow_branch = { 
+		has_country_flag=The_assassination_was_successful
+	}
+	visible = {
+		has_country_flag=The_assassination_was_successful
+	}
+	prerequisite = {focus = usd_Start_the_action}
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = usd_Focus_on_stability
+	icon = GFX_focus_usd_Focus_on_stability
+	cost = 1.4
+	x = 10
+	y = 3
+	ai_will_do ={
+		base = 100
+	}
+	visible = {
+		has_country_flag=The_assassination_was_successful
+	}
+	prerequisite = {focus = usd_The_assassination_was_successful}
+	completion_reward = {
+		
+	}
+}
+focus = {
+	id = usd_Focus_on_the_inside
+	icon = GFX_focus_usd_Focus_on_the_inside
+	cost = 1.4
+	x = 14
+	y = 3
+	ai_will_do ={
+		base = 100
+	}
+	visible = {
+		has_country_flag=The_assassination_was_successful
+	}
+	prerequisite = {focus = usd_The_assassination_was_successful}
+	completion_reward = {
+
+	}
+}
+focus = {
+	id = usd_Focus_on_the_army
+	icon = GFX_focus_usd_Focus_on_the_army
+	cost = 1.4
+	x = 12
+	y = 3
+	ai_will_do ={
+		base = 100
+	}
+	visible = {
+		has_country_flag=The_assassination_was_successful
+	}
+	prerequisite = {focus = usd_The_assassination_was_successful}
+	completion_reward = {
+
+	}
+}
+focus = {
+	id = usd_The_army_Goes_Rolling_along
+	icon = GFX_focus_usd_The_army_Goes_Rolling_along
+	cost = 1.4
+	x = 12
+	y = 4
+	ai_will_do ={
+		base = 100
+	}
+	visible = {
+		has_country_flag=The_assassination_was_successful
+	}
+	prerequisite = {focus = usd_Focus_on_the_army}
+	prerequisite = {focus = usd_Focus_on_the_inside}
+	prerequisite = {focus = usd_Focus_on_stability}
+	completion_reward = {
+		
+	}
+}
+###########刺杀失败刷新#########
+focus = {
+	id = usd_The_assassination_failed
+	icon = GFX_focus_usd_The_assassination_failed
+	cost = 1.4
+	x = 12
+	y = 2
+	ai_will_do ={
+		base = 100
+	}
+	available = {
+		has_country_flag=The_assassination_failed
+	}
+	allow_branch = { 
+		has_country_flag=The_assassination_failed
+	}
+	visible = {
+		has_country_flag=The_assassination_failed
+	}
+	prerequisite = {focus = usd_Start_the_action}
+	completion_reward = {
+		
+	}
+}
+}

@@ -1,0 +1,28 @@
+ideas = {
+	country={
+		Be_beset_with_difficulties ={
+			picture = noting
+			allowed={
+				always = yes
+			}
+			available = {
+				country_exists = KON
+			}
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+		Main_Body_Soldier = {
+		picture = GFX_idea_Main_Body_Soldier
+			allowed={
+				always = yes
+			}
+			available = {
+				country_exists = KON
+			}
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+		}
+	}

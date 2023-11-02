@@ -1,0 +1,61 @@
+Peaceful_Evolution = {
+	Invite_US_military_officers = {
+
+		icon = noting
+
+		available = {
+			tag = TOY
+			has_country_flag=Peaceful_Evolution_1
+		}
+		cost = 0
+
+		fire_only_once = yes
+
+		complete_effect ={
+			add_manpower = 1000
+		}
+		ai_will_do = {
+			factor = 10
+			}
+	}
+	Invite_US_military_officers = {
+
+		icon = noting
+
+		available = {
+			tag = TOY
+			has_country_flag=Peaceful_Evolution_3
+		}
+		cost = 0
+
+		fire_only_once = yes
+
+		complete_effect ={
+			
+		}
+		ai_will_do = {
+			factor = 10
+			}
+	}
+}
+Rebellion = {
+		The_American_army_rebelled = {     
+		 activation = {                         
+		 has_country_flag = Tokyo_10
+	}                                    
+	available = {                        
+		has_country_flag = Go_north
+		#####和平演变成功后事件
+	}
+	
+	is_good = no                   
+
+	days_mission_timeout = 180
+	timeout_effect = {                      
+		add
+	}
+	complete_effect = {                    
+		       
+	}
+}
+}

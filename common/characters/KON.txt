@@ -1,0 +1,18 @@
+characters = {
+	Kim_Jong_un = {
+		name = Kim_Jong_uns
+		portraits = {
+			civilian={
+				large = "gfx/leaders/kon/Kim_Jong_un.png"
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			desc = Kim_Jong_un
+			traits = {
+				The_only_sun_Introduction
+			}
+			id = 296
+		}
+	}
+}

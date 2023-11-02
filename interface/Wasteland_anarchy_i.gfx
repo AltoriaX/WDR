@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_Wasteland_anarchy_group"
+		texturefile = "gfx/interface/ideologies/Wasteland_anarchy.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_Wasteland_anarchy_1"
+		texturefile = "gfx/interface/ideologies/Wasteland_anarchy.dds"
+	}
+}

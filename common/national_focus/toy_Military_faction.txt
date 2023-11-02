@@ -1,0 +1,3 @@
+focus_tree = {
+	id = toy_Military_faction
+	}

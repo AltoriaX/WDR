@@ -1,0 +1,28 @@
+state={
+	id=913
+	name="STATE_913"
+	provinces={
+		959 6922 3852
+	}
+ state_category = town
+	manpower=95490
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+
+history={
+		owner = KOX
+		add_core_of = KOX
+		buildings = {
+		
+			arms_factory = 1
+			industrial_complex = 2
+			fuel_silo = 1
+			infrastructure = 2
+			air_base = 6
+			959 = {
+				naval_base = 6
+
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+characters = {
+	kor_Waste_soil = {
+		name = kor_Waste_soil
+		portraits = {
+			civilian={
+				large = "gfx/leaders/kow/korea_Waste_soil.png"
+			}
+		}
+		country_leader = {
+			ideology = Wasteland_anarchy_1
+			desc = kor_Waste_soil
+			traits = {
+				Waste_soil_Introduction
+			}
+			id = 232
+		}
+	}
+}
